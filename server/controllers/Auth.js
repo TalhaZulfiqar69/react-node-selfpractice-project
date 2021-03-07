@@ -30,7 +30,7 @@ const login = async (data) => {
     if (userData == null) {
       const data = {
         success: false,
-        message: "username and email not found",
+        message: "Username and email not found",
       };
       return data;
     }
@@ -43,7 +43,7 @@ const login = async (data) => {
     if (validPassword == false) {
       const data = {
         success: false,
-        message: "email or password is incorrect",
+        message: "Email or password is incorrect",
       };
       return data;
     }
